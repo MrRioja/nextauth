@@ -1,49 +1,38 @@
-<div align="center">
-  <img src="./public/images/avatar.svg" alt="Logo" width="100"/>
-  <br/>
-  <br/>
-
-  <img src="./public/images/logo.svg" alt="Logo" width="200"/>
-</div>
-<h5 align="center">
-[SUBTITLE]
-</h5>
-
-<br><br>
+# Next Auth
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Ignite&message=nextauth&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/github/license/MrRioja/nextauth?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nextauth?color=blueviolet&logo=JavaScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MrRioja/nextauth?color=blueviolet&logo=TypeScript&logoColor=white&style=for-the-badge">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MrRioja/nextauth?color=blueviolet&style=for-the-badge">
 </p>
 <br>
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#nextauth">nextAuth</a> •
+  <a href="#next-auth">Next Auth</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#autor">Autor</a>  
 </p>
 
-<br><br><br>
-
 ## Sobre
 
-<p>
-  Projeto desenvolvido durante o Ignite, um bootcamp criado pela <strong><a href="https://rocketseat.com.br/">Rocketseat</a></strong> com diversas trilhas de variadas tecnologias. O projeto foi criado durante o módulo III do bootcamp na trilha de <strong><a href="https://pt-br.reactjs.org/">ReactJS</a></strong>, que tinha como foco ensinar [COMPLETAR AQUI].
-</p>
+Projeto desenvolvido durante o Ignite, um bootcamp criado pela **[Rocketseat](https://rocketseat.com.br/)** com diversas trilhas de variadas tecnologias. O projeto foi criado durante o módulo III do bootcamp na trilha de [ReactJS](https://pt-br.reactjs.org/), que tinha como foco mostrar como lidar com autenticação dentro do NextJS.
 
-<br><br>
+## Next Auth
 
-<img src="./readme/Wallpaper.png" alt="Logo" style="border-radius: 20px"/>
+Projeto de estudo com o proposito de entender como lidar com autenticação dentro do NextJS.
 
-<br><br><br>
+O backend da API desse projeto está disponível [nesse projeto](https://github.com/rocketseat-education/ignite-reactjs-auth-backend) e é necessário para executar o projeto desse repositório. Na seção [Instalação](#instalação) você encontrará todos os detalhes para executar o projeto.
 
-## WatchMe
+O que foi estudado durante o desenvolvimento desse projeto foi:
 
-<br><br><br>
+- [x] Chamadas HTTP dentro do NextJS.
+- [x] Como lidar com cookies dentro do NextJS.
+- [x] Como lidar com autenticação para renderizar conteúdos com base em permissões e roles de usuários.
+
+O frontend desse projeto é extremamente simples pois o foco do módulo foi autenticação, permissões e roles no front.
 
 ## Instalação
 
@@ -55,13 +44,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:MrRioja/nextauth.git
+$ git clone git@github.com:rocketseat-education/ignite-reactjs-auth-backend.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nextauth
-
-# Vá para a pasta server
-$ cd backend
+$ cd ignite-reactjs-auth-backend
 
 # Instale as dependências
 $ npm install
@@ -73,7 +59,7 @@ $ npm run dev
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn dev
 
-# O servidor inciará na porta 3333 ou na porta definida no arquivo .env na variavel APP_PORT - acesse <http://localhost:3333>
+# O servidor inciará na porta 3333 - acesse <http://localhost:3333>
 ```
 
 ### 🖥️ Rodando o Front End (Web)
@@ -85,43 +71,17 @@ $ git clone git@github.com:MrRioja/nextauth.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd nextauth
 
-# Vá para a pasta server
-$ cd frontend
-
 # Instale as dependências
 $ npm install
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm run dev
 # Caso prefira usar o Yarn execute o comando abaixo
-$ yarn start
+$ yarn dev
 
 # O servidor inciará na porta 3000 - acesse <http://localhost:3000>
-```
-
-### 📱 Rodando o App (Mobile)
-
-```bash
-# Clone este repositório
-$ git clone git@github.com:MrRioja/nextauth.git
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nextauth
-
-# Vá para a pasta server
-$ cd nextauth
-
-# Instale as dependências
-$ npm install
-# Caso prefira usar o Yarn execute o comando abaixo
-$ yarn
-
-# Execute a aplicação
-$ expo start
-
-# Será aberto no terminal o menu do Expo onde poderá scanear o QR Code para executar o app diretamente no seu celular ou as opções de executar no emulador android ou iOS
 ```
 
 ## Tecnologias
@@ -132,12 +92,12 @@ $ expo start
 
 <img align="left" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="75" />
 
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 ## Autor
 
 <div align="center">
-<img src="https://badges.pufler.dev/contributors/MrRioja/ignews?size=100&padding=5&bots=false"/>
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/55336456?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d" />
 <h1>Luiz Rioja</h1>
 <strong>Backend Developer</strong>
 <br/>
